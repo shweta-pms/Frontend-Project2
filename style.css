@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ *{
+
+    margin: 0;
+    padding: 0;
+    
+ }
+ .main_container{
+   border-color: #09a0bb;
+ }
+ .first_box{
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* font-family: "poppins",sans-serif; */
+    background-color: aqua;
+    height: 45px;
+    
+ }
+ .ulone{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 20px;
+    width: 40%;
+    position: relative;
+    bottom: 20px;
+
+ }
+ .ulone li {
+    font-size: 20px;
+    font-family: "Roboto Slab" serif;
+    margin: 20px;
+ }
+ .ulone li i{
+    font-size: 15px;
+ }
+ .ultwo{
+    list-style-type: none;
+    padding: 10px;
+    width: 60%;
+    margin-right: 40px;
+    position: relative;
+    left: 400px;
+    bottom: 20px;
+ }
+ .ultwo li{
+    font-size: 20px;
+    font-family: "Roboto Slab",serif;
+    margin: 20px;
+ }
+ .ultwo li i{
+    font-size: 15px;
+ }
+ /* -----------navbar------------ */
+ 
+ .navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .logo{
+    margin-left: 20px;
+    font-size: 20px;
+    padding: 18px;
+    font-family: "Italianno", cursive;
+ }
+ .logo i{
+    color: aqua;
+    font-size: 40px;
+ }
+ li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    
+ }
+ .navsection{
+    display: flex;
+    margin: 50px;
+ }
+ .navsection .text {
+    position: relative;
+    top: 100px;
+ }
+ .navsection .text h3{
+    font-size: 40px;
+     
+ }
+ .navsection .text h1{
+     font-size: 110px;
+     position: relative;
+     right: 190px;
+ }
+ .navsection .text p{
+    font-size: 16px;
+ }
+ .navsection .text button{
+    font-size: 15px;
+    font-weight: bold;
+    width: 150px;
+    padding: 5px;
+ }
+ .navsection .text i{
+    margin: 10px;
+    font-size: 40px;
+ }
+ .herosection{
+    display: flex;
+    position: relative;
+    left: 90px;
+    right: 50px;
+ }
+ .herosection .text .text1 h3{
+    font-size: 30px;
+    padding: 10px;
+ }
+ .herosection .text .text1 h1{
+    font-size: 50px;
+    padding: 10px;
+    position: relative;
+    right: 190px;
+ }
+ .herosection .text .text1 p{
+    font-size: 16px;
+    padding: 10px;
+ }
+ .herosection .text2{
+    display: flex;
+    text-align: start;
+    justify-content: start;
+ }
+ .herosection .text2 li i{
+   margin-right: 10px;
+   
+ }
+ .herosection .text2 ul li{
+    width: 50%;
+ }
+ .herosection .text2 .img{
+    position: relative;
+    right: 300px;
+    top: 20px;
+ }
+ .card{
+   background-image: url(./bca\ image-1.jpg);
+   
+ }
+ #imgicon{
+   position: relative;
+   right: 110px;
+   font-size: 70px;
+   color: aliceblue;
+   bottom: 90px;
+ }
+  h3{
+   color: rgb( 103,234,234);
+   font-size: 17px;
+   margin: 15px;
+   font-family: "italianno",cursive;
+   font-weight: 600;
+   font-style: normal;
+ }
+ h1{
+    text-align: center; 
+   font-size: 42px;
+   font-family: "Roboto Slab", serif;
+   font-weight: 800;
+   letter-spacing: 2px;
+ }
+ .container{
+   border-radius: 20px;
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: center;
+   max-width: 1100px;
+   margin: auto;
+ }
+ .box1 .box2 .box3{
+   margin: 30px;
+   background-color:white;
+   border: 10px solid black(159, 26, 26);
+   border-radius: 10px;
+   width: 20%;
+   height: 450px;
+   padding: 20px;
+   position: relative;
+ }
+
+  .image{
+   height: 225px;
+   width: 250px;
+ } 
+ .dollar{
+   color: rgb(289, 237, 289);
+   padding: 6px;
+   width: fit-content;
+   font-size: 20px;
+   font-weight: 800px;
+   position: relative;
+   color: aqua;
+   left: 15px;
+   bottom: 270px;
+ }
+ .para1{
+   color: rgb(25, 49, 25);
+ }
+ .container .rate{
+   color: black;
+ }
+  .container .para1{
+   border: 1px solid;
+   position: relative;
+   left: 20px;
+   bottom: 50px;
+   background-color: rgb(199, 199, 224);
+   height: 25px;
+   width: 250px;
+  }
+  .container .para2{
+   border: 1px solid;
+   position: relative;
+   left: 20px;
+   bottom: 50px;
+   background-color: rgb(199, 199, 224);
+   height: 25px;
+   width: 250px;
+  }
+  .container .para3{
+   border: 1px solid;
+   position: relative;
+   left: 20px;
+   bottom: 50px;
+   background-color: blue;
+   height: 25px;
+   width: 250px;
+  }
+  .card h2{
+   position: relative;
+   bottom: 50px;
+  }
+  .card .rate{
+   position: relative;
+   bottom: 25px;
+  }
+  .awesome{
+   color: rgb(20, 120, 120);
+   font-size: 30px;
+   line-height: 36px;
+   font-family: "Corinthia",cursive;
+   font-weight: 700;
+   font-style: normal;
+   margin: 3px;
+   text-align: center;
+  }
+  .choose{
+   font-family: "Poppins",sans-serif;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 46px;
+   line-height: 64px;
+   text-align: center;
+   margin: 5px;  
+}
+#icons{
+   color: #09a0bb;
+   font-size: 60px;
+   margin: 5px;
+   padding: 4px;
+}
+.containerone{
+   width: 350px;
+   margin: 12px;
+   margin-left: 100px;
+   padding: 10px;
+   float: left;
+}
+.containerone h1{
+   font-family: "Poppins",sans-serif;
+   font-size: 25px;
+   font-weight: 700;
+   color: rgb(31, 52, 56);
+   line-height: 27px;
+   /* margin: 5px; */
+   padding: 4px;
+}
+  
+.containertwo{
+   width: 350px;
+   margin: 12px;
+   padding: 10px;
+   float: right;
+   margin-right: 60px;
+}
+.containertwo h1{
+   font-family: "Poppins",sans-serif;
+   font-size: 25px;
+   font-weight: 700;
+   color: rgb(31, 52, 56);
+   line-height: 27px;
+   margin: 5px;
+   padding: 4px;
+
+}
+.container23{
+   display: flex;
+}
+.garray h3{
+   text-align: center;
+}
+.geallry{
+   padding-left: 10%;
+}
+.pordone i{
+   position: relative;
+   right: 50px;
+   bottom: 220px;
+   }
+   .product {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .pordone p{
+      margin: 5px;
+      padding: 10px;
+   }
+   .pordone span{
+      margin: 5px;
+      padding: 10px;
+
+   }
+   .btn{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+      padding: 50px;
+        
+   }
+
+   .btn p{
+       
+      font-size: 25px;
+   }
+   .herotwo{
+      display: flex;
+      align-items: center;
+      justify-content:space-evenly;
+      max-width: 1200px;
+      margin: auto;
+       
+      
+   }
+   .herotwo .tre {
+      position: relative;
+      bottom: 250px;
+      left: 10px;
+      color: white;
+      background-color: aqua;
+      width: 60px;
+      font-size: 20px;
+      padding: 5px;
+      
+   }
+   .paraonly{
+      border: 2px solid aqua;
+      height: 220px;
+      width: 33%;
+      margin: 30px;
+      padding: 30px;
+   }
+   .paraonly h3{
+      color: black;
+      font-weight: bold;
+      margin-top: 30px;
+   }
+   .paraonly p{
+      margin-top: 50px;
+   }
+   .compeny{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      max-width: 1000px;
+      margin: auto;
+   }
+    #sponsor{
+      border: 1px solid black;
+      border-style: dotted;
+      padding: 20px;
+   }
+   .news{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      background-color: blue;
+      max-width: 1000px;
+      margin: auto;
+      margin-top: 50px;
+   }
+   .news h1{
+      padding: 30px;
+      margin: 20px;
+   }
+   .foot{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      max-width: 1000px;
+      margin: auto;
+   }
+   .foot h2{
+      font-size: 20px;
+      margin-top: 40px;
+      
+   }
+   .foot p{
+      margin: 20px;
+   }
